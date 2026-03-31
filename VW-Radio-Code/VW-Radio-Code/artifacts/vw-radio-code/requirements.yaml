@@ -1,0 +1,15 @@
+packages:
+  "framer-motion": "For premium reveal animations on the generated code and smooth page transitions"
+  "canvas-confetti": "For a celebratory effect when code is successfully generated"
+
+images:
+  - path: "artifacts/vw-radio-code/public/images/carbon-fiber.png"
+    description: "Dark carbon fiber texture, seamless pattern, automotive styling, subtle specular highlights"
+    aspect_ratio: "16:9"
+  - path: "artifacts/vw-radio-code/public/images/dashboard-glow.png"
+    description: "Abstract soft blue glowing lights reminiscent of a modern car dashboard in the dark, blurred"
+    aspect_ratio: "16:9"
+
+notes:
+  - All logic is client-side; no backend required for this utility.
+  - The serial number code logic applies to common VW/Blaupunkt units requiring 4-digit pins derived from 8 digits of the serial.
