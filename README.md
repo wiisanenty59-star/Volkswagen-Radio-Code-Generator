@@ -76,7 +76,17 @@ Not affiliated with Volkswagen Group or any related brands.
 
 ## 🚀 Getting Started
 
+### 1. Install requirements
+
+Make sure you have Node.js installed (v18+ recommended), then install pnpm:
+
 ```bash
+npm install -g pnpm
+git clone https://github.com/yourusername/Volkswagen-Radio-Code-Generator.git
+cd Volkswagen-Radio-Code-Generator
 pnpm install
 pnpm build
 pnpm start
+
+for development / Custom Updates.
+pnpm dev
